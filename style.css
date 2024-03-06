@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("https://i0.wp.com/unusualplaces.org/wp-content/uploads/2018/11/kasmir.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    opacity: 0.8;
+    animation: background-images 10s 5s infinite;
+    justify-content: space-between;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    font-size: 27px;
+}
+
+.header {
+    background-color: rgba(1, 6, 19, 0.411)
+        /* background-image: url("https://th.bing.com/th/id/OIP.HyjU2tItxGqeu1piwJogEQHaE8?rs=1&pid=ImgDetMain"); */
+}
+
+.Wanderlust {
+    font-size: 65px;
+    font-family: "Satisfy", cursive;
+    color: rgb(7, 1, 12);
+}
+
+.hero-buttons {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.btn-red {
+    background-color: rgb(6, 4, 103);
+    border-radius: 15px;
+    color: white;
+    padding: 5px 2px;
+
+}
+
+.Search :first-child {
+    width: 100vw;
+    animation: destinations 3s 1s infinite;
+
+}
+
+@keyframes background-images {
+    from {}
+
+    to {
+        background-image: url("https://wallpapercave.com/wp/wp7946717.jpg");
+        height: 80vh;
+        background-repeat: no-repeat;
+        width: 100vw;
+    }
+}
+
+.place {
+    font-family: "Satisfy", cursive;
+    font-size: 46px;
+    border: 66px;
+    margin: 85px;
+}
+
+.place-name {
+    font-size: 65px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.placepics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: black;
+    color: rgb(210, 175, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Wanderlust2 {
+    font-size: 65px;
+    font-family: "Satisfy", cursive;
+    color: rgb(195, 204, 63);
+}
+
+.footertopic {
+    font-family: "Satisfy", cursive;
+    color: rgb(195, 204, 63);
+    font-size: 30px;
+
+}
+
+.contactdetails1 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Satisfy", cursive;
+    text-decoration: underline;
+}
+
+.contactdetails {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Satisfy", cursive;
+}
+
+.Socialmedia1 {
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item {
+        align-items: center;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px) {}
+
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
